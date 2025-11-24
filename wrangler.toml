@@ -1,6 +1,6 @@
 name = "subscription-manager"
 main = "index.js"
-compatibility_date = "2024-01-01"
+compatibility_date = "2025-01-01"
 compatibility_flags = ["nodejs_compat"]
 
 [env.production]
@@ -11,9 +11,9 @@ name = "subscription-manager-staging"
 
 # KV 命名空间配置
 [[kv_namespaces]]
-binding = "SUBSCRIPTIONS_KV"
-preview_id = "your-preview-kv-namespace-id"
-id = "your-production-kv-namespace-id"
+binding = "SUBSCRIPTIONS_KV" 
+preview_id = "fa5f5490db304063998500f008a44d04"
+id = "fa5f5490db304063998500f008a44d04"
 
 # 定时任务配置 - 每天早上8点检查
 [triggers]
